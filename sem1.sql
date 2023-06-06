@@ -1,0 +1,11 @@
+CREATE DATABASE working;
+#CREATE SCHEMA working
+
+USE working;
+
+CREATE TABLE worker
+(id INT PRIMARY KEY NOT NULL,
+name_worker VARCHAR(30) NOT NULL,
+dept VARCHAR(30) NOT NULL,
+salary VARCHAR(30) 
+);
